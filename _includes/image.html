@@ -1,0 +1,46 @@
+<!--
+doc:
+  - need: src
+  - opt: alt
+  - need: label
+  - opt: summary
+  - need: id
+-->
+
+<div class="thumbnail">
+  <img src="{{ include.src }}" {% if include.alt %}alt="{{ include.alt }}"{% endif %}>
+  <div class="caption">
+    <h3>{{ include.label }}</h3>
+    {% if include.summary %}
+      <p>{{ include.summary }}</p>
+    {% endif %}
+    {% if include.fullscreen %}
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#{{ include.id }}">
+      Open Image Fullscreen
+    </button>
+    {% endif %}
+  </div>
+</div>
+
+{% if include.summary %}
+<!-- Modal -->
+<div class="modal fade bs-example-modal-lg" id="{{ include.id }}" tabindex="-1" role="dialog" aria-labelledby="{{ include.id }}Label">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="{{ include.id }}Label">{{ include.label }}</h4>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+          <img class="embed-responsive-item" src="{{ include.src }}" {% if include.alt %}alt="{{ include.alt }}"{% endif %}>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

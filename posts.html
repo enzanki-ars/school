@@ -1,0 +1,27 @@
+---
+layout: default
+redirect_from: /tutorials/
+---
+
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Title</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for post in site.posts %}
+      <tr>
+        <td>
+          {{ post.date | date: "%A, %B %d, %Y" }}
+        </td>
+        <td>
+          <a href="{{ post.url | prepend: site.github.url | replace_first:'http://','https://' }}">{{ post.title }}</a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
