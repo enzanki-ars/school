@@ -1,0 +1,53 @@
+<div class="thumbnail" id="{{ include.event.date }}">
+  {% if include.event.image %}
+    <img src="{{ include.event.image }}" {% if include.event.alt %}alt="{{ include.event.imagealt }}"{% endif %}>
+  {% endif %}
+  
+  <div class="caption">
+    <h3>{{ include.event.date }}: {{ include.event.name }}</h3>
+    
+    {% if include.event.info %}
+      <ul>
+      {% for info in include.event.info %}
+        <li>{{ info.text | markdownify }}</li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+    
+    {% if include.event.extrainfo %}
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#{{ include.event.date }}">
+        {% if include.event.extrainfo.buttontext %}
+          {{ include.event.extrainfo.buttontext }}
+        {% else %}
+          More Info
+        {% endif %}
+      </button>
+    {% endif %}
+  </div>
+</div>
+
+{% if include.event.extrainfo %}
+<!-- Modal -->
+<div class="modal fade bs-example-modal-lg" id="{{ include.event.date }}" tabindex="-1" role="dialog" aria-labelledby="{{ include.event.date }}Label">
+  <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h3 class="modal-title" id="{{ include.event.date }}Label">event {{ include.event.date }}: {{ include.event.title }}</h4>
+    </div>
+    <div class="modal-body">
+      {% if include.event.extrainfo.name %}
+        <h4>{{ include.event.extrainfo.name }}</h4>
+      {% endif %}
+      {% for event in include.event.extrainfo.events %}
+        {% include event.html event=event %}
+      {% endfor %}
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+  </div>
+</div>
+{% endif %}

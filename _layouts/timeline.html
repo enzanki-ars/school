@@ -4,7 +4,9 @@
 
 {{ content }}
 
-
+{% for event in page.events %}
+  {% include event.html event=event %}
+{% endfor %}
 
 {% include postpages.html %}
 {% include footer.html %}
