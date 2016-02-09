@@ -1,6 +1,6 @@
 ---
 layout: timeline
-title: Timeline
+title: Women's Rights Timeline
 authors:
   - name: Alex Shafer 
     username: enzanki-ars 
