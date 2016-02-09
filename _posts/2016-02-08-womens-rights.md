@@ -29,6 +29,7 @@ events:
           
   - name: "Alice Paul's Arrest"
     date: "October 17th, 1917"
+    info: 
       - text: "Sentenced to seven months in jail"
       - text: "Force fed in prison after she went on a hunger strike"
       
