@@ -52,7 +52,7 @@ events:
   
   - name: "FDA approves birth control pills"
     date: "May 9, 1960"
-    image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Lutera_(Birth_Control_Pills).jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Food_and_Drug_Administration_logo.svg/500px-Food_and_Drug_Administration_logo.svg.png"
     info:
       - text: "FDA approves birth control pills"
   
