@@ -55,16 +55,20 @@ events:
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Food_and_Drug_Administration_logo.svg/500px-Food_and_Drug_Administration_logo.svg.png"
     info:
       - text: "FDA approves birth control pills"
-  
-  - name: "Increase in Abortion Restrictions"
-    date: "2010"
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Guttmacher_Abortion_Restrictions.SVG/640px-Guttmacher_Abortion_Restrictions.SVG.png"
-  
+  - name: "Equal Pay Act of 1963"
+    date: "June 10, 1963"
+    info:
+     - text: "Same pay for same job and same hours for men and women."
+
   - name: "Violence Against Women Act of 1994"
     date: "September 13, 1994"
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/S_47_-_Violence_Against_Women_Reauthorization_Act_of_2013_-_Senate_Vote.svg/640px-S_47_-_Violence_Against_Women_Reauthorization_Act_of_2013_-_Senate_Vote.svg.png"
     info:
       - text: "Allocate money for \"investigation and prosecution of violent crimes against women\""
       - text: "Struck down by courts, but rewritten in 2013"
+  
+  - name: "Increase in Abortion Restrictions"
+    date: "2010"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Guttmacher_Abortion_Restrictions.SVG/640px-Guttmacher_Abortion_Restrictions.SVG.png"
   
 ---
