@@ -16,7 +16,7 @@ layout: post
           <li>Hector Heritage Quay</li>
           <li>Kejimkujik</li>
           <li>Cape Breton Highlands</li>
-          <li>Peggys Cove<li>
+          <li>Peggys Cove</li>
         </ul>
       </div>
     </div>
@@ -44,7 +44,7 @@ layout: post
           <li>Museum of French America</li>
           <li>McCord Museum or </li>
           <li>Montreal Museum of Archaeology and History in Pointe-à-Callière</li>
-          <li>Village Québécois d'Antan<li>
+          <li>Village Québécois d'Antan</li>
         </ul>
       </div>
     </div>
