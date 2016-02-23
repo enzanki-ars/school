@@ -27,7 +27,13 @@ layout: post
         <h3 class="panel-title">French Canada - Places to visit</h3>
       </div>
       <div class="panel-body">
-        WIP
+        <h4>Historic Sites</h4>
+        <p>
+          Wikipedia has one of the best sources for the Historic Sights in Quebec. Below is a map of all of them!
+        </p>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://tools.wmflabs.org/wp-world/googlmaps-proxy.php?page=https:%2F%2Ftools.wmflabs.org%2Fkmlexport%3Farticle%3DList_of_National_Historic_Sites_of_Canada_in_Quebec&output=classic"></iframe>
+        </div>
       </div>
     </div>
   </div>
