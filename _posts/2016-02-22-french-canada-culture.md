@@ -5,6 +5,8 @@ authors:
   - name: Alex Shafer 
     username: enzanki-ars 
     role: Author
+  - name: Jarod Landry
+    role: Author
 ---
 
 <p>
