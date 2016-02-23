@@ -17,7 +17,7 @@ title: French Canadian Culture - Places to visit
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://tools.wmflabs.org/wp-world/googlmaps-proxy.php?page=https:%2F%2Ftools.wmflabs.org%2Fkmlexport%3Farticle%3DList_of_National_Historic_Sites_of_Canada_in_Nova_Scotia&output=classic"></iframe>
         </div>
-      
+        <hr>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Cabot_trail_2009k.JPG/800px-Cabot_trail_2009k.JPG" class="img-responsive">
         <ul>
           <li>Grand-Pré National Historic Site</li>
@@ -38,6 +38,7 @@ title: French Canadian Culture - Places to visit
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://tools.wmflabs.org/wp-world/googlmaps-proxy.php?page=https:%2F%2Ftools.wmflabs.org%2Fkmlexport%3Farticle%3DList_of_National_Historic_Sites_of_Canada_in_Quebec&output=classic"></iframe>
         </div>
+        <hr>
         <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Val-Jalbert_2.jpg" class="img-responsive">
         <ul>
           <li>Museum of Civilization</li>
@@ -57,6 +58,7 @@ title: French Canadian Culture - Places to visit
       
       <div class="panel-body">
         <iframe class="embed-responsive-item" src="https://tools.wmflabs.org/wp-world/googlmaps-proxy.php?page=https:%2F%2Ftools.wmflabs.org%2Fkmlexport%3Farticle%3DList_of_National_Historic_Sites_of_Canada_in_New_Brunswick&output=classic"></iframe>
+        <hr>
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Cape_Enrage.JPG" class="img-responsive">
         <ul>
           <li>Fundy National Park</li>
