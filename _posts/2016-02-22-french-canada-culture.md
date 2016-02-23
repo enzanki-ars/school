@@ -57,6 +57,7 @@ title: French Canadian Culture - Places to visit
       
       <div class="panel-body">
         <iframe class="embed-responsive-item" src="https://tools.wmflabs.org/wp-world/googlmaps-proxy.php?page=https:%2F%2Ftools.wmflabs.org%2Fkmlexport%3Farticle%3DList_of_National_Historic_Sites_of_Canada_in_New_Brunswick&output=classic"></iframe>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Cape_Enrage.JPG" class="img-responsive">
         <ul>
           <li>Fundy National Park</li>
           <li>Kouchibouguac National Park</li>
