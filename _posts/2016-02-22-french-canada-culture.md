@@ -1,6 +1,10 @@
 ---
 layout: post
 title: French Canadian Culture - Places to visit
+authors:
+  - name: Alex Shafer 
+    username: enzanki-ars 
+    role: Author
 ---
 
 <p>
