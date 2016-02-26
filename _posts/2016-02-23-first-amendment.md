@@ -42,3 +42,4 @@ events:
       - text: "Student held sign stating \"BONGS HiTS FOR JESUS.\" during Olympic Torch Relay"
       - text: |
           Schools are allowed to suspend students who encourage drug use.
+---
